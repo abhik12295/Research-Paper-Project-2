@@ -1,10 +1,3 @@
-Here is a **high-impact, IEEE-aligned, portfolio-grade `README.md`** crafted directly from your paper
-(), optimized for **GitHub, recruiters, EB1/O1 petitions, and research visibility**.
-
-You can paste this directly into VS Code 
-
----
-
 # 🚀 Active Synthetic Data Generation (ASDG) using Conditional GANs
 
 ### A Lightweight Generative AI Framework for Scarce-Label Image Classification
@@ -13,7 +6,6 @@ You can paste this directly into VS Code
 <b>Bridging Generative AI, Active Learning, and Data Efficiency for Real-World AI Systems</b>
 </p>
 
----
 
 ## 📌 Abstract
 
@@ -31,15 +23,12 @@ The framework generates class-conditioned synthetic samples and selectively inco
 * Random Synthetic Augmentation: **67.73%**
 * Active Synthetic Augmentation: **68.69% (best)**
 
----
 
 ## 🎯 Research Goal
 
 To answer a critical research question:
 
 > **Can actively selecting synthetic data improve learning efficiency compared to random augmentation in scarce-label settings?**
-
----
 
 ## 🧠 Key Contributions
 
@@ -49,7 +38,7 @@ To answer a critical research question:
 * ✅ Empirical analysis of **informativeness vs stability trade-offs**
 * ✅ Practical pipeline applicable to real-world domains
 
----
+
 
 ## ⚙️ System Workflow
 
@@ -72,7 +61,6 @@ Synthetic Data Pool
                Performance Evaluation
 ```
 
----
 
 ## 🔬 Methodology
 
@@ -88,7 +76,6 @@ x_{syn} = G(z, y)
 * `y` → class label
 * Enables **class-conditioned image generation**
 
----
 
 ### 2️⃣ Active Sample Selection
 
@@ -106,7 +93,7 @@ Where:
 
 👉 Ensures selection of **informative + non-redundant samples**
 
----
+
 
 ### 3️⃣ Iterative Training Pipeline
 
@@ -118,7 +105,7 @@ Where:
 * Retrain student model
 * Repeat for multiple rounds
 
----
+
 
 ## 📊 Experimental Setup
 
@@ -128,7 +115,6 @@ Where:
 * Rounds: **3 iterations**
 * Hardware: Apple Silicon (MPS backend)
 
----
 
 ## 📈 Results
 
@@ -152,7 +138,7 @@ Where:
 👉 Highlights a key research direction:
 **Balancing informativeness with robustness in synthetic data pipelines**
 
----
+
 
 ## 🗂️ Project Structure
 
@@ -173,7 +159,6 @@ Research-Paper-Project-2/
 └── README.md
 ```
 
----
 
 ## ⚙️ Installation
 
@@ -187,7 +172,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
 
 ## ▶️ Usage
 
@@ -202,7 +186,6 @@ python stage2_student_baseline.py
 python stage3_asdg_cgan.py
 ```
 
----
 
 ## 🌍 Real-World Applications
 
@@ -214,7 +197,6 @@ This framework is highly relevant for:
 * 🛰️ Remote sensing / satellite imagery
 * 🤖 Autonomous systems
 
----
 
 ## 🔬 Research Significance
 
@@ -224,7 +206,6 @@ This work contributes to **data-efficient AI systems**, demonstrating that:
 * Active learning can **maximize information gain per sample**
 * Lightweight architectures can still achieve **strong performance gains**
 
----
 
 ## 🚀 Portfolio & Immigration Impact (EB1/O1 Alignment)
 
@@ -234,7 +215,6 @@ This project demonstrates:
 * 📌 Applied research with measurable performance improvements
 * 📌 Implementation of **state-of-the-art deep learning techniques**
 * 📌 Relevance to **industry-scale AI challenges**
----
 
 ## 📚 References
 
@@ -244,15 +224,12 @@ Based on foundational works in:
 * Conditional GANs (Mirza & Osindero)
 * Active Learning (Settles, Ash et al.)
 
----
-
 ## 👨‍💻 Author
 
 **Abhishek Kumar**
 PhD (AI), University of the Cumberlands
 Specialization: Generative AI, Data Engineering, Predictive Systems
 
----
 
 ## 🔮 Future Work
 
@@ -261,7 +238,6 @@ Specialization: Generative AI, Data Engineering, Predictive Systems
 * Adaptive active learning strategies
 * Large-scale dataset generalization
 
----
 
 ## ⭐ Acknowledgment
 
