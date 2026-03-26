@@ -1,4 +1,4 @@
-# 🚀 Active Synthetic Data Generation (ASDG) using Conditional GANs
+# Active Synthetic Data Generation (ASDG) using Conditional GANs
 
 ### A Lightweight Generative AI Framework for Scarce-Label Image Classification
 
@@ -25,13 +25,11 @@ The framework generates class-conditioned synthetic samples and selectively inco
 
 
 ## 🎯 Research Goal
-
 To answer a critical research question:
 
 > **Can actively selecting synthetic data improve learning efficiency compared to random augmentation in scarce-label settings?**
 
 ## 🧠 Key Contributions
-
 * ✅ Novel integration of **cGAN + Active Learning**
 * ✅ Lightweight, reproducible framework for **resource-constrained environments**
 * ✅ Demonstration of **synthetic data effectiveness under limited labels**
