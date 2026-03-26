@@ -1,1 +1,3 @@
 /pvenv
+# Ignore all compressed gzip files
+*.gz
