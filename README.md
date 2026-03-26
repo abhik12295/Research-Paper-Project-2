@@ -136,29 +136,7 @@ Where:
 👉 Highlights a key research direction:
 **Balancing informativeness with robustness in synthetic data pipelines**
 
-
-
-## 🗂️ Project Structure
-
-```bash
-Research-Paper-Project-2/
-│
-├── stage1_cgan_cifar10.py
-├── stage2_student_baseline.py
-├── stage3_asdg_cgan.py
-│
-├── results_stage1_cgan/
-├── results_stage2_student_baseline/
-├── results_stage3_asdg/
-│
-├── data/ (ignored)
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
-
-## ⚙️ Installation
+## Installation
 
 ```bash
 git clone https://github.com/abhik12295/Research-Paper-Project-2.git
@@ -171,7 +149,7 @@ pip install -r requirements.txt
 ```
 
 
-## ▶️ Usage
+## Usage
 
 ```bash
 # Stage 1: Train CGAN
