@@ -1,3 +1,6 @@
 /pvenv
 # Ignore all compressed gzip files
 *.gz
+data/*.gz
+*.tar.gz
+/data
