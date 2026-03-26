@@ -1,0 +1,12 @@
+Student Baseline CIFAR-10 Summary
+=================================
+Device: mps
+Real samples per class: 300
+Total real training samples: 3000
+Epochs: 25
+Batch size: 128
+Learning rate: 0.001
+Weight decay: 0.0001
+Classes: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+Best Test Accuracy: 60.98%
+Final Test Accuracy: 49.69%
